@@ -1,0 +1,11 @@
+{
+    "display_name": "对话标题 · Chat Title",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "kyoya0307",
+    "version": "1.0.0",
+    "homePage": "https://github.com/kyoya0307/ST-ChatTitle"
+}

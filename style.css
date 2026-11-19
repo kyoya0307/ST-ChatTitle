@@ -1,0 +1,37 @@
+/* Scoped to recent chats; the original title nodes and click handlers are preserved. */
+body.stct-enabled .welcomePanel .recentChat .chatName > .characterName,
+body.stct-enabled .welcomePanel .recentChat .chatName > .characterName + span {
+    display: none !important;
+}
+
+body.stct-wrap .welcomePanel .welcomeRecent .recentChat .recentChatInfo {
+    min-width: 0;
+}
+
+body.stct-wrap .welcomePanel .welcomeRecent .recentChat .chatNameContainer .chatName {
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    line-height: 1.45;
+}
+
+@media (max-width: 600px) {
+    body.stct-wrap .welcomePanel .welcomeRecent .recentChat .chatNameContainer {
+        flex-wrap: wrap !important;
+        align-items: center;
+    }
+    body.stct-wrap .welcomePanel .welcomeRecent .recentChat .chatNameContainer .chatName {
+        flex: 1 0 100% !important;
+        min-width: 0;
+    }
+    body.stct-wrap .welcomePanel .welcomeRecent .recentChat .chatDate {
+        flex: 1;
+    }
+    body.stct-wrap .welcomePanel .welcomeRecent .recentChat .chatActions {
+        flex-shrink: 0;
+    }
+}
+
+#stct-settings p {
+    opacity: 0.8;
+    overflow-wrap: anywhere;
+}
